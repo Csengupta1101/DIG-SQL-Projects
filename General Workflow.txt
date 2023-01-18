@@ -36,3 +36,6 @@ Standard Timeframe -
 Duration - 14 Months
 Development - 11 Months
 Testing - 3 Months
+
+Between development and testing , testing is done with 'Service Now' Primarily , tickets will be raised here if any bug is found in the development. Those tickets will be
+sent to development team , they will perform the modification and will publish the output. 
