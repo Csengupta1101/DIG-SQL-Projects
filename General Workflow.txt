@@ -14,6 +14,7 @@ Target File
 UDF
 CTE 
 Temp Tables
+T-SQL
 
 
 Team strength General - 
@@ -21,5 +22,12 @@ Team strength General -
 Team Leads - 3 
 Developers - 6
 
- * Getting the data from the source files - applications being used such as - talent , informatica etc will be done by team 1
- * Creation of stored procedures , UDF
+ * Getting the data from the source files - applications being used such as - talent , informatica etc will be done by team 1 (Source file to source layer)
+ * Creation of stored procedures , UDF , CTE , Variable , Temp Tables etc , Views done by team 2 (source layer to staging layer) 
+ * Table , DML Operations , String , aggregate functions etc will be done by team 3 (staging layer to target layer)
+ * Now transferring the data from target layer to target files csv , json using etl such as - SSIS,talent , informatica  again will be 
+   done by team 1 (Target layer to target files)
+
+SRC Tables (Source Layer)
+Staging Layer (STG Tables)
+Target Layer (Transformation Tables)
