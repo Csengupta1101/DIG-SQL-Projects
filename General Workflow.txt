@@ -11,6 +11,9 @@ Error Layer
 Audit Table
 ETL 1 and 2
 Target File
+UDF
+CTE 
+Temp Tables
 
 
 Team strength General - 
@@ -18,4 +21,5 @@ Team strength General -
 Team Leads - 3 
 Developers - 6
 
- * Getting the data from the source files - applications being used such as - talent , informatica etc 
+ * Getting the data from the source files - applications being used such as - talent , informatica etc will be done by team 1
+ * Creation of stored procedures , UDF
