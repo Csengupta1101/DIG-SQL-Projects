@@ -1,2 +1,13 @@
 1.  Getting the data from warehouse/primary application - (csv , json etc)
 2.  
+
+
+Terms to remember -
+Source File
+Source Layer
+Staging Layer
+Target Layer
+Error Layer
+Audit Table
+ETL 1 and 2
+Target File
