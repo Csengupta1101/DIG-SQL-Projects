@@ -1,0 +1,14 @@
+Workbench Project Workflow -
+
+1.  Database creation as per ER Model
+2.  Table development as per ER model
+3.  Solving problem statements with SQL Queries as below    
+
+    *   Finding out repeat customers to generate specific offers
+    *   Finding out customers moved away with purchase pattern
+    *   development of performence metrics for the employees
+    *   Identification and Recongination of top performing employees
+    *   Identifying top selling products and market trends
+
+These are few example problem statements , there will be many more based on the Database , every project will have 15-20 problem statements.
+
