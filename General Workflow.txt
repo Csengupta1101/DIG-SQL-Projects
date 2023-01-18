@@ -1,5 +1,5 @@
 1.  Getting the data from warehouse/primary application - (csv , json etc)
-2.  
+2.   
 
 
 Terms to remember -
@@ -11,3 +11,11 @@ Error Layer
 Audit Table
 ETL 1 and 2
 Target File
+
+
+Team strength General - 
+1 Client Manager (On Site)
+Team Leads - 3 
+Developers - 6
+
+ * Getting the data from the source files - applications being used such as - talent , informatica etc 
