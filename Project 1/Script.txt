@@ -1,0 +1,4 @@
+Hello everyone and welcome to this session. I hope all of you are doing great . Today we will work around on creating a mysql database as per given instructions. And once the database is created , we will perform
+queries on the same. The queries that we will run will be based on the problem statements that's shared with us. I will make sure to explain each and every code to all of you so that you find no difficulty in 
+understanding both the code and why the same is being used. So let's start the journey , shall we ?
+
