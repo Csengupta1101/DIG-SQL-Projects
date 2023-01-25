@@ -26,3 +26,9 @@ Transactions -
     - Purchase_date
     - Transactions_value
     - Product Name
+
+Now that the tables are created , we will now understand the constraints given in the code of it , INT , BIGINT simply refers to numbers , BIGINT also takes a limit of numerical
+characters as a argument, NOT NULL stands for the constraint that states , in this particular column , no null values can be present , primary key refers to a particular column that 
+holds uniques value in respective to that table and will be used to connect/join the table with other ones in the database.
+
+Let's now add some values in our created tables.
