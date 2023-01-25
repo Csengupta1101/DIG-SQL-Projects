@@ -31,4 +31,7 @@ Now that the tables are created , we will now understand the constraints given i
 characters as a argument, NOT NULL stands for the constraint that states , in this particular column , no null values can be present , primary key refers to a particular column that 
 holds uniques value in respective to that table and will be used to connect/join the table with other ones in the database.
 
-Let's now add some values in our created tables.
+Let's now add some values in our created tables. As you can see , we have added values in the customers table , now there are something that needs to be pointed out here.. you can see
+the name harry coming twice in the data , but make sure to identify their cust_id which is differenct and hence it shows that these records are for two different individuals.
+Also you can see that neville is also present twice in the data but this time their customer id is the same , which goes to show that they are same people , but the transaction id
+and the item id is different , which goes to show that neville bought two different items in two transactions.
