@@ -1,0 +1,1 @@
+Q1. Write a query to add a column in the transaction table which will fetch the transaction values.
