@@ -49,3 +49,11 @@ VALUES ('Neville', '9836234351', '1348', '13', '1', '003');
 INSERT INTO `groccery_store`.`customers` (`Cust_Name`, `Phone_Num`, `Purchased_Item_id`, `Transaction_id`, `Purchase_Qty`, `Cust_id`) 
 VALUES ('Harry', '9836234171', '1346', '14', '1', '004');
 
+-- Value Submission - Items Table --
+
+INSERT INTO `groccery_store`.`items` (`product_name`, `price_per_unit`, `in_stock`, `product_id`) VALUES ('Hair Oil', '130', '50', '1345');
+INSERT INTO `groccery_store`.`items` (`product_name`, `price_per_unit`, `in_stock`, `product_id`) VALUES ('Shampoo', '85', '120', '1346');
+INSERT INTO `groccery_store`.`items` (`product_name`, `price_per_unit`, `in_stock`, `product_id`) VALUES ('Rice', '25', '100', '1347');
+INSERT INTO `groccery_store`.`items` (`product_name`, `price_per_unit`, `in_stock`, `product_id`) VALUES ('Icecream', '90', '35', '1348');
+
+
