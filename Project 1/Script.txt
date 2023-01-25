@@ -2,4 +2,4 @@ Hello everyone and welcome to this session. I hope all of you are doing great . 
 queries on the same. The queries that we will run will be based on the problem statements that's shared with us. I will make sure to explain each and every code to all of you so that you find no difficulty in 
 understanding both the code and why the same is being used. So let's start the journey , shall we ?
 
-The database that we will create will handle a groccery store data. 
+The database that we will create will handle a groccery store data. The structure will be as given below -
