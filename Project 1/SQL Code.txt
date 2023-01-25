@@ -1,0 +1,36 @@
+-- DataBase Creation --
+CREATE SCHEMA `groccery_store` ;
+
+-- Accessing The DataBase --
+USE groccery_store ;
+
+-- Items Table Creation --
+CREATE TABLE `groccery_store`.`items` (
+  `product_name` VARCHAR(45) NOT NULL,
+  `price_per_unit` INT NOT NULL,
+  `in_stock` INT NOT NULL,
+  `product_id` INT NOT NULL,
+  PRIMARY KEY (`product_id`));
+
+-- Customers Table Creation --
+
+CREATE TABLE `groccery_store`.`customers` (
+  `Cust_Name` VARCHAR(45) NULL,
+  `Phone_Num` BIGINT(15) NOT NULL,
+  `Purchased_Item_id` INT NOT NULL,
+  `Transaction_id` INT NOT NULL,
+  `Purchase_Qty` INT NOT NULL,
+  `Cust_id` INT NOT NULL,
+  PRIMARY KEY (`Transaction_id`),
+  UNIQUE INDEX `Transaction_id_UNIQUE` (`Transaction_id` ASC) VISIBLE);
+
+
+-- Transactions Table Creation --
+
+CREATE TABLE `groccery_store`.`transaction` (
+  `transactions_id` INT NOT NULL,
+  `cust_id` INT NOT NULL,
+  `Purchase Date` DATE NOT NULL,
+  `product_id` INT NOT NULL,
+  PRIMARY KEY (`transactions_id`),
+  UNIQUE INDEX `transactions_id_UNIQUE` (`transactions_id` ASC) VISIBLE);
