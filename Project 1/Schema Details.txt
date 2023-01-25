@@ -1,4 +1,5 @@
 DataBase - Groccery store
+
 3 Tables -
 
 Items -
@@ -19,4 +20,4 @@ Transactions -
     - Transaction_id
     - Purchase_date
     - Transactions_value
-    - Product Name
+    - Product Name 
