@@ -36,4 +36,8 @@ the name harry coming twice in the data , but make sure to identify their cust_i
 Also you can see that neville is also present twice in the data but this time their customer id is the same , which goes to show that they are same people , but the transaction id
 and the item id is different , which goes to show that neville bought two different items in two transactions.
 
-Now let's go ahead and put some data in our items table ,
+Now let's go ahead and put some data in our items table ,here value addition is pretty straight forward , different items having different Item_id and the stock here referes to their 
+inventory and unit in numbers.
+
+It's time for the transactions table , we will add values in there as well. As we can see here all the values are submitted and as discussed prior , transactions_id is considered 
+as the primary key here.

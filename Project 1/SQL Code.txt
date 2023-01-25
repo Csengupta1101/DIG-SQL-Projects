@@ -57,3 +57,12 @@ INSERT INTO `groccery_store`.`items` (`product_name`, `price_per_unit`, `in_stoc
 INSERT INTO `groccery_store`.`items` (`product_name`, `price_per_unit`, `in_stock`, `product_id`) VALUES ('Icecream', '90', '35', '1348');
 
 
+-- Value Submission - Transactions Table --
+
+INSERT INTO `groccery_store`.`transaction` (`transactions_id`, `cust_id`, `Purchase Date`, `product_id`) VALUES ('10', '1', '2023-01-11', '1345');
+INSERT INTO `groccery_store`.`transaction` (`transactions_id`, `cust_id`, `Purchase Date`, `product_id`) VALUES ('11', '2', '2022-12-10', '1346');
+INSERT INTO `groccery_store`.`transaction` (`transactions_id`, `cust_id`, `Purchase Date`, `product_id`) VALUES ('12', '3', '2023-01-05', '1347');
+INSERT INTO `groccery_store`.`transaction` (`transactions_id`, `cust_id`, `Purchase Date`, `product_id`) VALUES ('13', '3', '2023-01-08', '1348');
+INSERT INTO `groccery_store`.`transaction` (`transactions_id`, `cust_id`, `Purchase Date`, `product_id`) VALUES ('14', '4', '2022-12-21', '1346');
+
+
