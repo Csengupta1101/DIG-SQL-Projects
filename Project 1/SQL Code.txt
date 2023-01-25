@@ -34,3 +34,18 @@ CREATE TABLE `groccery_store`.`transaction` (
   `product_id` INT NOT NULL,
   PRIMARY KEY (`transactions_id`),
   UNIQUE INDEX `transactions_id_UNIQUE` (`transactions_id` ASC) VISIBLE);
+
+
+-- Value Submission - Customers Table --
+
+INSERT INTO `groccery_store`.`customers` (`Cust_Name`, `Phone_Num`, `Purchased_Item_id`, `Transaction_id`, `Purchase_Qty`, `Cust_id`) 
+VALUES ('Ron', '9836234356', '1345', '10', '2', '001');
+INSERT INTO `groccery_store`.`customers` (`Cust_Name`, `Phone_Num`, `Purchased_Item_id`, `Transaction_id`, `Purchase_Qty`, `Cust_id`) 
+VALUES ('Harry', '9836234359', '1346', '11', '1', '002');
+INSERT INTO `groccery_store`.`customers` (`Cust_Name`, `Phone_Num`, `Purchased_Item_id`, `Transaction_id`, `Purchase_Qty`, `Cust_id`) 
+VALUES ('Neville', '9836234351', '1347', '12', '3', '003');
+INSERT INTO `groccery_store`.`customers` (`Cust_Name`, `Phone_Num`, `Purchased_Item_id`, `Transaction_id`, `Purchase_Qty`, `Cust_id`) 
+VALUES ('Neville', '9836234351', '1348', '13', '1', '003');
+INSERT INTO `groccery_store`.`customers` (`Cust_Name`, `Phone_Num`, `Purchased_Item_id`, `Transaction_id`, `Purchase_Qty`, `Cust_id`) 
+VALUES ('Harry', '9836234171', '1346', '14', '1', '004');
+
