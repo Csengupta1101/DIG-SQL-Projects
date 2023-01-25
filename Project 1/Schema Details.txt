@@ -1,0 +1,22 @@
+DataBase - Groccery store
+3 Tables -
+
+Items -
+    - Product Name
+    - Price/unit 
+    - In Stock
+    - Item_id - Primary Key 
+
+Customers -
+    - Cust_name
+    - Phone_num
+    - Purchased_item_id
+    - Purchase Qty
+    - Cust_id - Primary Key
+
+Transactions -
+    - Cust_id - Primary Key
+    - Transaction_id
+    - Purchase_date
+    - Transactions_value
+    - Product Name
