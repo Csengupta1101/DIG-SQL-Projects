@@ -1,1 +1,2 @@
-Q1. Write a query to add a column in the transaction table which will fetch the transaction values.
+Q1. Write a query to add a column containing only years of purchase in the transactions table.
+A - 
