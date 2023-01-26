@@ -11,3 +11,7 @@ A. We will perform a join here based on the product id , as it's present in both
 
 Q4. Write a query to showcase the customer name , the product they purchased and total purchase value in the result
 A. We will perform the same join as above to connect items and customers table but while providing the select clause we will use a multiplication of purchase quantity and item price
+
+Q5. Write a query to display the customer name who have made more than one purchase
+A. We will simply use the count method here and will chcek that if there is any two transactions where the cust_id is same or in the other words , if same cust_id gets repeated in 
+two transactions.
