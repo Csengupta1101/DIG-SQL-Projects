@@ -67,7 +67,7 @@ INSERT INTO `groccery_store`.`transaction` (`transactions_id`, `cust_id`, `Purch
 
 
 
--- Problem Statements --
+-- Problem Statements Codes --
 
 -- We can see that in the transactions table purchase date column is written with a space. let's fix this and change the column name with an _ ,--
 ALTER TABLE `groccery_store`.`transaction` 
@@ -79,5 +79,9 @@ select cust_id , month(purchase_date) from transaction;
 select cust_id , day(purchase_date) from transaction;
 
 
-
+-- Write a query to showcase only the customer name and the product they purchased as per the database --
+select c.cust_name , i.product_name 
+from customers c 
+join items i 
+on c.Purchased_Item_id = i.product_id;
 
