@@ -8,3 +8,6 @@ A - When performing analysis based on only the years stated in our table , it is
 Q3. Write a query to showcase only the customer name and the product they purchased as per the database.
 A. We will perform a join here based on the product id , as it's present in both of the tables . One point to note here is that in both tables they are written differently 
 , in one table its written as product_id and in another its Purchased_Item_id so we will need to make sure to provide correct name while joining them.
+
+Q4. Write a query to showcase the customer name , the product they purchased and total purchase value in the result
+A. We will perform the same join as above to connect items and customers table but while providing the select clause we will use a multiplication of purchase quantity and item price
