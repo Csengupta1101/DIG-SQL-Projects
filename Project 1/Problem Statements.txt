@@ -1,2 +1,6 @@
-Q1. Write a query to add a column containing only years of purchase in the transactions table.
-A - 
+Q1. We can see that in the transactions table purchase date column is written with a space. let's fix this and change the column name with an _ ,
+A.  The reason why we are doing this is because date is a valid keyword in mysql so if you provide space before date , it will not be considered as an individual column in our query
+rather will be treated as an keyword , hence this fi is required.
+
+Q2. Write a query to generate a column containing only years of purchase in the transactions table.
+A - When performing analysis based on only the years stated in our table , it is helpful to extract only the year. Same way we can extract month and day as well.
