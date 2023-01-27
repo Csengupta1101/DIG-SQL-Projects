@@ -91,3 +91,12 @@ select c.cust_name , i.product_name, (c.purchase_qty*i.price_per_unit) as purcha
 from customers c 
 join items i 
 on c.Purchased_Item_id = i.product_id;
+
+-- Write a query to display the customer name who have made more than one purchase --
+select distinct(cust_name) from customers where cust_id in(
+select cust_id
+from transaction 
+group by cust_id 
+having count(cust_id)>1);
+
+
