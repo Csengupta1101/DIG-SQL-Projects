@@ -99,4 +99,8 @@ from transaction
 group by cust_id 
 having count(cust_id)>1);
 
-
+-- Write a query to display the amount spent on each purchase by the customers --
+select c.cust_name , (c.purchase_qty*i.price_per_unit) as purchase_value , i.product_name 
+from customers c 
+join items i 
+on c.Purchased_Item_id = i.product_id;
