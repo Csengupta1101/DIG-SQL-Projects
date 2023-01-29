@@ -41,3 +41,5 @@ inventory and unit in numbers.
 
 It's time for the transactions table , we will add values in there as well. As we can see here all the values are submitted and as discussed prior , transactions_id is considered 
 as the primary key here.
+
+
