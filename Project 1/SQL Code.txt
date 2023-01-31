@@ -114,4 +114,18 @@ select c.cust_name , i.product_name  from items i join customers c
 on i.product_id = c.Purchased_Item_id
 where price_per_unit>100;
 
+-- let's now try see if we can fit different column data  values in a single column in our output --
+select product_name from items
+union all
+select cust_name from customers
+union all
+select purchase_date from transaction;
+
+
+-- create a view which will only showcase the product details where only 1 product -- 
+create view
+productone as 
+select * from customers 
+where Purchase_Qty = 1;
+
 

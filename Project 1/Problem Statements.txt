@@ -26,3 +26,18 @@ A. We can simplye perform a where clause here to set up the logic based on which
 
 Q8. Now let's extend our query as stated above. Let's try to find out customers purchasing the product for which price is more than 100.
 A. With the above written query we will simply add on a join statement and the join this time will take place with the product_id/Purchased_Item_id.
+
+Q9. Now lets try something different , for a fact we know that all columns are not present in each table in our given database. So let's now try see if we can fit different column data 
+values in a single column in our output.
+A. We will use the union statement here , it will provide us all the data requested in a single column irrespective of the fact of them containing similar type of data or values. to
+explain it further , date type data , integer , bigint type data everything can be present at once in a single column , we will take into consideration the product_name , cust_name 
+purchase_date here 
+
+Q10. Now let's go ahead and create view for extracting a specific set of data.  Suppose we want to create a view which will only showcase the product details where only 1 product
+was purchased.
+A. Now on your left hand tab , you would be able to see view named as 'product one' under view section. And you can access the view seprately , it will act as an individual table to
+a certain extent.
+
+
+
+

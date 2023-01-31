@@ -43,3 +43,66 @@ It's time for the transactions table , we will add values in there as well. As w
 as the primary key here.
 
 
+let's now , how we can incorporate other important keywords in MySQL for our database exploration , let's talk about , And , or and not operators in MySQL. 
+
+The WHERE clause can be combined with AND, OR, and NOT operators.
+
+The AND and OR operators are used to filter records based on more than one condition:
+
+The AND operator displays a record if all the conditions separated by AND are TRUE.
+The OR operator displays a record if any of the conditions separated by OR is TRUE.
+The NOT operator displays a record if the condition(s) is NOT TRUE.
+
+SELECT * FROM Customers
+WHERE Purchased_item_id = 1346 AND Purchase_Qty = 1;
+
+This will display all the results for the product_id 1346 marked item and the same sold of only one unit.
+
+We will see a different result if we use 'or' inplace of 'and' as in that case any of the given condition if turns out to be true will display the results accordingly.
+
+SELECT * FROM Customers
+WHERE Purchased_item_id = 1346 or Purchase_Qty = 1;
+
+The not keywords help us in negating the given statement , which simply means that the output we will get , simply must not include any item containing inside the not argument. 
+Suppose we write a query like below , 
+
+SELECT * FROM Customers
+WHERE NOT Purchased_item_id = 1346;
+
+here we will get all the details of customers table except the ones where 1346 stands to be a product id.
+
+Let’s talk about order by statement , This statement helps us to order or sort our data on a specific parameter that’s given to us. Suppose we want to order by our data based on the purchased quantity we can write a query as like 
+
+select * from customers
+order by Purchase_Qty ;
+
+As it’s seen the purchase quantity column is sorted based on lowest to highest order. if we want this order to be reversed, we can do that by simply adding a descending argument in our query as below.
+
+select * from customers
+order by Purchase_Qty desc;
+
+Now as you can see the purchase quantity given is ranked from highest to lowest in the output present.
+
+We can also use multiple columns into our data for ordering by as per requirement, suppose we want to get all the data from the customer table where purchase quantity will be sorted in descending order and customer id will be sorted in ascending order. We can write a query as below ,
+
+select * from customers
+order by Purchase_Qty desc, cust_id asc;
+
+We can use Limit statement to control the number of records to be displayed in the output statement that we will get , a query like below will end up fetching only 2 records from all the records available under the logics provided in the query ,
+
+select * from customers
+order by Purchase_Qty desc, cust_id asc limit 2;
+
+While the query logic remains the same , with the help of the limit statement we will be able to get the output of only 2 records among all the records present in the table.
+
+We often need to change the content of our existing table based on some given condition, to achieve the same we need the update statement to be used , it takes into consideration based on which it will filter the data and then will perform the updating in the data itself. Suppose I want to change the name of the customer to “peter” wherever customer id is 2 , we can run a query as below ,
+
+UPDATE Customers
+SET Cust_name = 'peter'
+WHERE cust_id = 2;
+
+As it can be seen here , the set statement goes hand in hand with the update statement for execution.
+
+I Hope this session was helpful for all of you , we developed a database and ran few problem statement queries in it. Stay tuned , we will come back with more such projects .
+
+
