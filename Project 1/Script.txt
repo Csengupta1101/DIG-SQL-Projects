@@ -103,6 +103,15 @@ WHERE cust_id = 2;
 
 As it can be seen here , the set statement goes hand in hand with the update statement for execution.
 
+The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates. the BETWEEN operator is inclusive: begin and end values are included. Our target
+here is to find out all data present in our transactions table where only the records of december will be available.
+
+SELECT *
+FROM transaction
+WHERE purchase_date BETWEEN '2022-12-01' AND '2022-12-31';
+
+as we can see based on the transaction table we have selected the start date and end date of the month december and in the out put data we are getting the respective result accordingly.
+
 I Hope this session was helpful for all of you , we developed a database and ran few problem statement queries in it. Stay tuned , we will come back with more such projects .
 
 
