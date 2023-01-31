@@ -104,3 +104,14 @@ select c.cust_name , (c.purchase_qty*i.price_per_unit) as purchase_value , i.pro
 from customers c 
 join items i 
 on c.Purchased_Item_id = i.product_id;
+
+-- Now let's try to find out the products which are priced more than 100 alongside the product name --
+select product_name  from items 
+where price_per_unit>100;
+
+-- Now let's extend our query as stated above. Let's try to find out customers purchasing the product for which price is more than 100 --
+select c.cust_name , i.product_name  from items i join customers c 
+on i.product_id = c.Purchased_Item_id
+where price_per_unit>100;
+
+

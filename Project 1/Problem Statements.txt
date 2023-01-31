@@ -21,3 +21,8 @@ A. We will perform a join here on the items table and the customers table , from
 will be able to extract the purchase quantity , multiplying these two , we will be getting our results in hand.
 
 
+Q7. Now let's try to find out the products which are priced more than 100 alongside the product name.
+A. We can simplye perform a where clause here to set up the logic based on which the filteration will take place. The clause will state to display all the products priced accordingly.
+
+Q8. Now let's extend our query as stated above. Let's try to find out customers purchasing the product for which price is more than 100.
+A. With the above written query we will simply add on a join statement and the join this time will take place with the product_id/Purchased_Item_id.
