@@ -112,6 +112,13 @@ WHERE purchase_date BETWEEN '2022-12-01' AND '2022-12-31';
 
 as we can see based on the transaction table we have selected the start date and end date of the month december and in the out put data we are getting the respective result accordingly.
 
+
+Aliases are used to give a table, or a column in a table, a temporary name. Aliases are often used to make column names more readable.An alias only exists for the duration of that query.
+An alias is created with the AS keyword.
+
 I Hope this session was helpful for all of you , we developed a database and ran few problem statement queries in it. Stay tuned , we will come back with more such projects .
+
+Structured Query Language(SQL) as we all know is the database language by the use of which we can perform certain operations on the existing database and also we can use this language to create a database. SQL uses certain commands like Create, Drop, Insert, etc. to carry out the required tasks. 
+
 
 
